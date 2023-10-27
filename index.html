@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="icon" type="png" href="icon.png">
-        <title>
-            MyBlog
-        </title>
-        <link rel="stylesheet" href="meow.css">
-    </head>
-    <body>
-        <p>
-            hello humans!
-        </p>
-    </body>
+<head>
+    <link rel="icon" type="png" href="icon.png">
+    <link rel="stylesheet" href="meow.css">
+    <!-- or use type "image/x-icon" for .ico files -->
+    <!-- For example: <link rel="icon" type="image/x-icon" href="your-icon.ico"> -->
+    <title>MyBlog</title>
+    <style>
+        #button {
+            position: absolute;
+            top: 10px; /* Adjust this value to change the distance from the top */
+            right: 10px; /* Adjust this value to change the distance from the right */
+        }
+        #submit{
+            position: absolute;
+            left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Log in
+    </h1>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" placeholder="Enter your email address"><br>
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password">
+    <br>
+    <br>
+    <input type="submit" id="submit" name="submit">
+    <button type="submit" id="button" name="submit">Sign In</button>
+</body>
 </html>
