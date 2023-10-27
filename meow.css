@@ -4,8 +4,42 @@ body{
 h1{
     position: absolute;
     text-align: center;
-    left: 45%;
-    top: 15%;
-    
+    left: 39%;
+    top: 5%;
+    color: white;
+    font-weight: bolder;
+    font-size: 500%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white; /* Set the inside font color to white */
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; /* Create a black outline around the text */
 
+}
+img{
+    position: absolute;
+    width: 15%;
+    top: 0%;
+}
+#label1,#label2{
+    color: white;
+    font-size: 150%;
+}
+p{
+    color: white; /* Set the inside font color to white */
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black; /* Create a black outline around the text */
+    position: absolute;
+    font-size: 400%;
+    top: 0%;
+    left: 11%;
+}
+#button,#submit{
+    background-color: #fbfbfc; /* Background color */
+    color: #000000; /* Text color */
+    border: 2px solid #fbfbfc; /* Border with color */
+    padding: 10px 20px; /* Padding around text */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Text size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+#password,#email{
+    font-size: 120%;
 }
